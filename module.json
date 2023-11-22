@@ -1,0 +1,25 @@
+{
+  "id": "enoxs-gamepad-extensions",
+  "title": "Enox's Gamepad Extensions",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": [
+    "src/main.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "beavers-gamepad",
+        "type": "module"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Lucy"
+    }
+  ]
+}
